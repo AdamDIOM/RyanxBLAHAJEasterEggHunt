@@ -1,0 +1,56 @@
+.ikea-ad{
+  margin-bottom:1em;
+  background-color:#0058ab;
+  color: #fbd914
+}
+
+.ikea-ad a {
+  background-color:#fbd914;
+  padding: 0.5em;
+  font-weight:bold;
+  color:#0058ab;
+  transition: transform .2s;
+  border-radius:10px;
+  display: inline-block;
+}
+
+.ikea-ad a:hover{
+  transform: scale(1.1);
+}
+
+.ikea-ad img{
+  width:100%;
+  padding:1em 0;
+}
+
+.gallery{
+  margin-bottom: 2em;
+  width:400px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.gallery img{
+  width:auto;
+  height:400px;
+  border-radius:12px;
+}
+
+.carousel-container{
+  background-color:#343a40;
+  width:auto;
+  padding-bottom:1em;
+  margin-bottom:1em;
+  max-width:100%;
+}
+
+Card{
+  border-radius:12px;
+}
+
+button{
+  padding:0;
+  border:0;
+  background: inherit;
+  color:inherit;
+}
